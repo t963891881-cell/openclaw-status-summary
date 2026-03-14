@@ -1,0 +1,1 @@
+*/5 8-23 * * * /Users/yourname/path/to/openclaw-status-summary/scripts/run_feishu_sync.sh >> /tmp/openclaw-feishu-sync.log 2>&1

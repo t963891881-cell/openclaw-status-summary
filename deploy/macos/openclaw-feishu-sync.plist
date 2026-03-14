@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.openclaw.feishu-sync</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/mac/Desktop/7654/openclaw-status-summary/scripts/run_feishu_sync.sh</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <array>
+      <dict><key>Hour</key><integer>8</integer><key>Minute</key><integer>0</integer></dict>
+      <dict><key>Hour</key><integer>8</integer><key>Minute</key><integer>5</integer></dict>
+      <dict><key>Hour</key><integer>8</integer><key>Minute</key><integer>10</integer></dict>
+    </array>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/openclaw-feishu-sync.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/openclaw-feishu-sync.err</string>
+  </dict>
+</plist>
